@@ -25,11 +25,11 @@ greaterNum(25, 80);
 // EXERCISE: The World Translator
 
 function helloWorld(lang){
-	if (lang = "jp")
+	if (lang == "jp")
 	{
 		var x = "こんにちは世界";
 	}
-	else if (lang = "es") 
+	else if (lang == "es") 
 	{
 		var x = "hola mundo";
 	}

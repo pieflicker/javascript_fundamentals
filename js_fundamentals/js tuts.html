@@ -12,18 +12,26 @@
 
 <script>
 
-function pluralizer(noun, number) {
-	if (number > 1)
+function helloWorld(lang){
+	if (lang == "jp")
 	{
-		var x = number + " " + noun + "s";
+		var x = "こんにちは世界";
+	}
+	else if (lang == "es") 
+	{
+		var x = "hola mundo";
 	}
 	else 
 	{
-		var x = number + " " + noun;
+		var x = "Hello world";
 	}
-	alert(x)
+
+	alert(x);
 }
- pluralizer("Dog", 8);
+
+helloWorld("jp");
+helloWorld("es");
+helloWorld("bg");
 
 
 </script>
