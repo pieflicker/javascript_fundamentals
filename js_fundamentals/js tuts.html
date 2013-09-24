@@ -3,88 +3,30 @@
 	<title></title>
 </head>
 <body>
-	<script type="text/javascript"> 
-		function helloWhere() {
-			alert("Hello There");
-		}
-
-		helloWhere(); 
-	</script>
-
-
-	<script type="text/javascript"> 
-		function helloWhere(name, age) {
-			alert( "Hello there " + name + ", I hear you're " + age + " years old!");
-
-		}
-
-	</script>
-
-	<script>
-		var full_name = "Santa";
-		var age = 700;
-		
-	</script>
 
 <script>
-	function tellFortune(kids, partner, location, job) {
-	
-	alert("You will be a " + job + " in " + location + ", and married to " + partner + " with " + kids + " kids.");
-	
-}
-tellFortune(2, "YH", "Gifu", "web dev");
+
+
+
 </script>
 
 <script>
-function calculateAge(birth, current) {
-	var age = (current - birth);
-	var age1 = (age - 1);
-	alert("You are either " + age + " or " + age1);
+
+function pluralizer(noun, number) {
+	if (number > 1)
+	{
+		var x = number + " " + noun + "s";
+	}
+	else 
+	{
+		var x = number + " " + noun;
+	}
+	alert(x)
 }
-calculateAge(1986, 2013);
+ pluralizer("Dog", 8);
+
+
 </script>
-
-<script>
-function calculateSupply(age, daily) {
-	var amount = ((85 - age) * 365) * daily; 
-	alert("You will need " + amount + " tea bags to last you until the ripe old age of 85");
-}
-calculateSupply(26, 5);
-</script>
-
-<script>
-function calcCircumfrence(radius) {
-	var circ = Math.PI * (Math.pow(radius,2));
-
-	alert("The circumference is " + circ);
-}
-calcCircumfrence(15);
-
-function calcArea(radius) {
-	var area = 2 * Math.PI * (Math.pow(radius,2)); 
-	alert("The area is " + area);
-}
-
-calcArea(15);
-</script>
-
-<script>
-function celsiusToFahrenheit(temp){
-	var C = temp;
-	var F = (C * 9) / 5 + 32 ;
-	alert(C + "°C is " + F + "°F");
-}
-celsiusToFahrenheit(22);
-
-function fahrenheitToCelsius(temp){
-	var F = temp;
-	var C = (F - 32) * 5 / 9 ;
-	alert(F + "°F is " + C + "°C.");
-}
-fahrenheitToCelsius(77);
-</script>
-
-
 
 </body>
 </html>
