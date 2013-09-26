@@ -51,12 +51,12 @@ calculateSupply(26, 5);
 // Bonus: Accept floating point values for amount per day, and round the result to a round number.
 
 // EXERCISE: The Geometrizer
-function calcCircumfrence(radius) {
+function calcCircumference(radius) {
 	var circ = Math.PI * (Math.pow(radius,2));
 
 	alert("The circumference is " + circ);
 }
-calcCircumfrence(15);
+calcCircumference(15);
 
 function calcArea(radius) {
 	var area = 2 * Math.PI * (Math.pow(radius,2)); 

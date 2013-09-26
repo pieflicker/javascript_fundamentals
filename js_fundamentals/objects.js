@@ -2,6 +2,18 @@
 
 // EXERCISE: The Recipe Card
 
+var ingredients=["thin sliced beef", "onion", "mirrin", "ginger", "a few other things"];
+
+recipe={title:"Gyudon",servings:2, ingredients};
+
+console.log(title);
+console.log("Serves" + servings);
+
+for (var list = 0; list < ingredients.length; i++) {
+console.log("Ingredients:" + ingredients[list]);
+}
+
+
 // Never forget another recipe!
 
 // Create an object to hold information on your favorite recipe. It should have properties for title (a string), 
@@ -28,12 +40,34 @@
 
 // EXERCISE: The Movie Database
 
+
+
+var movie {
+	name: "5th Element",
+	duration: 140,
+	stars: ["Bruce Willis, Milla Jovovich"]
+
+
+	to_s: function() {
+	var result = movie.name + " lasts " + movie.duration; + " minutes, Stars: ";
+	result =  result = movie.stars.join(", ");
+	return result;
+	}
+
+}
+
+$(document).ready(function() {
+	$("p")
+
+}
+
+
+
 // It's like IMDB, but much much smaller!
 
 // Create an object to store the following information about your favorite movie: title (a string), duration (a number), 
 //and stars (an array of strings).
 // Create a function to print out the movie information like so: "Puff the Magic Dragon lasts for 30 minutes. Stars: Puff, 
 //Jackie, Living Sneezes."
-
 
 
